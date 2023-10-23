@@ -1,0 +1,49 @@
+
+
+.left {
+    background-color: aqua;
+    width: 1500px;
+    
+}
+.left {
+    margin-left: 200px;
+}
+.navbar li {
+    float: left;
+    margin-left: 200px;
+    list-style-type:none;
+    width: 250px;
+    
+
+}
+
+
+.right {
+    display: flex;
+    width: 2000px;
+    height: 60vh;
+    background-image:linear-gradient(blue red purple);
+    transition: width 5s;
+    
+    
+
+    
+
+}
+.right img {
+    width: 350px;
+    margin-left: 750px;
+    border-radius: 100px;
+}
+
+
+
+
+.container {
+   
+    display: flex;
+    flex-direction: column
+}
+body {
+    background-image: linear-gradient( to left,red, blue,grey);
+}
