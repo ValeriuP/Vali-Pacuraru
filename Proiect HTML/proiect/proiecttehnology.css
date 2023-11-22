@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background-technology-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.navbar_container {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.main_content {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+    padding-left: 20px;
+}
+.linie {
+    width: 500px;
+    max-width: 50px;
+    overflow: visible;
+    z-index: 2;
+    margin-left: 20%;
+}
+.linie hr {
+    margin-left: 20px;
+    width: 500px;
+}
+.meniu li {
+    float: left;
+    margin-left: 30px;
+}
+.meniu ul {
+    margin: top 20px;
+    list-style: none;
+}
+.meniu a {
+    color: aliceblue;
+}
+.meniu {
+    background: rgba ( 255, 255 255 0.04);
+    backdrop-filter: blur(60.774227142333984px);
+    height: 50px;
+    margin-left: 450px;
+}
+.meniu div:hover {
+    height: 25px;
+    border-bottom: 1px solid aliceblue;
+}
+.right {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    width:50%;
+    
+}
+.butoane {
+    width: 40px;
+    height: 60px;
+    /* background-color: aliceblue; */
+    margin-top: 250px;
+    color: #FFF;
+   
+
+}
+.text {
+    /* background-color: beige; */
+    /* width: 300px; */
+    color: #FFF;
+    height: 450px;
+    margin-top: 100px;
+
+}
+.right ul {
+    list-style: none;
+}
+.the {
+    color: #D0D6F9;
+    font-family: Barlow Condensed;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.7px
+    margin-top
+}
+.space {
+    color: #FFF;
+    font-family: Barlow Condensed;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4.725px;
+    margin-top: 100px;
+}
+
+.left {
+    width: 50%;
+    margin-top: 140px;
+    
+}

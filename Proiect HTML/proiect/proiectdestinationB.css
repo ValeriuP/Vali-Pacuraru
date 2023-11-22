@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.navbar_container {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.main_content {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    margin-left: 150px;
+    padding-left: 20px;
+
+}
+
+.linie {
+    width: 500px;
+    max-width: 50px;
+    overflow: visible;
+    z-index: 2;
+    margin-left: 20%;
+}
+.linie hr {
+    margin-left: 20px;
+    width: 500px;
+}
+.meniu li {
+    float: left;
+    margin-left: 30px;
+}
+.meniu ul {
+    margin-top: 20px;
+    list-style: none;
+}
+.meniu a {
+    color: aliceblue;
+}
+.meniu {
+    background: rgb(255, 255, 255, 0.04);
+    backdrop-filter: blur(60.774227142333984px);
+    height: 50px;
+    margin-left: 450px;
+}
+.meniu2 {
+    background: rgb(255, 255, 255, 0.04);
+    backdrop-filter: blur(60.774227142333984px);
+    height: 50px;
+}
+.meniu2 li {
+    float: left;
+    margin-left: 30px;
+}
+.meniu2 ul {
+    margin-top: 20px;
+    list-style: none;
+}
+.meniu2 .batens div:hover {
+    height: 25px;
+   border-bottom: 1px solid aliceblue;
+}
+.meniu div:hover {
+    height: 25px;
+    border-bottom: 1px solid aliceblue;
+}
+.left {
+    width: 50%;
+margin-right: 250px;
+    margin-top: 350px;
+}
+.right {
+    width: 50%;
+    margin-top: 150;
+    /* background-color: burlywood; */
+
+}
+.randul1 {
+    list-style: none;
+    margin-left: 350px;
+    margin-top: 200px;
+    font-size: 25px;
+    color: white;
+}
+.right img {
+    margin-left: 380px;
+    margin-top: 130px;
+}
+.mars {
+    margin-top: 50px;
+    color: white;
+    font-family: Bellefair;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.randul5 {
+    color: white;
+    margin-top: 20px;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 444px;
+}
+.avg {
+    margin-top: 20px;
+    width: 160px;
+}
+.textavg {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.mil {
+    margin-top: 10px;
+    color: white;
+    font-family: Bellefair;
+     font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.est {
+    margin-top:20px ;
+    color: white;
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase;
+    width: 170px;
+}
+.travel {
+    margin-top: 10px;
+    color: white;
+    font-family: Bellefair;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.distans {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.esttravel {
+    margin-left: 20px;
+    
+}

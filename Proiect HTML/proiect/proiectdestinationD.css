@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.navbar_container {
+    /* background-color: aqua; */
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.main_content {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    margin-left: 150px;
+    padding-left: 20px;
+
+}
+
+.linie {
+    width: 500px;
+    max-width: 50px;
+    overflow: visible;
+    z-index: 2;
+    margin-left: 20%;
+}
+.linie hr {
+    margin-left: 20px;
+    width: 500px;
+}
+.meniu li {
+    float: left;
+    margin-left: 30px;
+}
+.meniu ul {
+    margin-top: 20px;
+    list-style: none;
+}
+.meniu a {
+    color: aliceblue;
+}
+.meniu {
+    background: rgb(255, 255, 255, 0.04);
+    backdrop-filter: blur(60.774227142333984px);
+    height: 50px;
+    margin-left: 450px;
+}
+.meniu div:hover {
+    height: 25px;
+    border-bottom: 1px solid aliceblue;
+}
+.left {
+    width: 50%;
+margin-right: 250px;
+    margin-top: 350px;
+}
+.right {
+    width: 50%;
+    margin-top: 150;
+    /* background-color: burlywood; */
+
+}
+.randul1 {
+    list-style: none;
+    margin-left: 350px;
+    margin-top: 200px;
+    font-size: 25px;
+    color: white;
+}
+.right img {
+    margin-left: 380px;
+    margin-top: 130px;
+}
+.titan {
+    margin-top: 50px;
+    color: white;
+    font-size: 90px;
+    margin-right: 50px;
+}
+.randul5 {
+    color: white;
+    margin-top: 20px;
+    width: 350px;
+    height:100px;
+}
+.textjos {
+    width: 450px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.avg {
+    color: white;
+    margin-top: 10px;
+
+    
+}
+.est {
+    color: white;
+    margin-top: 10px;
+    
+}
+.mil {
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.years {
+    color: white;
+    margin-top: 10px;
+    font-size: 30px;
+
+
+}

@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background-crew-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+.navbar_container {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.main_content {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    margin-left: 150px;
+    padding-left: 20px;
+}
+.linie {
+    width: 500px;
+    max-width: 50px;
+    overflow: visible;
+    z-index: 2;
+    margin-left: 20%;
+}
+.linie hr {
+    margin-left: 20px;
+    width: 500px;
+}
+.meniu li {
+    float: left;
+    margin-left: 30px;
+}
+.meniu ul {
+    margin: top 20px;
+    list-style: none;
+}
+.meniu a {
+    color: aliceblue;
+}
+.meniu {
+    background: rgba ( 255, 255 255 0.04);
+    backdrop-filter: blur(60.774227142333984px);
+    height: 50px;
+    margin-left: 450px;
+}
+.meniu div:hover {
+    height: 25px;
+    border-bottom: 1px solid aliceblue;
+}
+.left {
+width: 50%;
+height: 150px;
+margin-left: 150px;
+margin-top: 140px;
+
+
+
+}
+
+.right {
+    width: 50%;
+    color: aliceblue;
+    margin-right: 0px;
+
+}
+.right ul {
+    list-style: none;
+}
+.randul1 {
+    margin-top: 200px;
+    width: 400px;
+    height: 30px;
+    left: 40%;
+    right: 1.4%;
+    font-style: normal;
+    font-family: 'Barlow Condensed';
+    font-size: 28px;
+    font-weight: 400px;
+    line-height: 34px;
+    letter-spacing: 4px;
+}
+.randul2 {
+    width: 400px;
+    margin-top: 150px;
+    height: 34px;
+    margin-left: 0;
+    font-size: 25px;
+    font-family: 'Barlow Condensed';
+    line-height:  34px;
+}
+.randul3 {
+    width: 400px;
+    margin-top: 10px;
+    font-family: barlow;
+    font-size: 40px;
+    line-height: 30px;
+}
+.randul4 {
+    width: 400px;
+    margin-top: 25px;
+    font-family: barlow;
+    
+}
+.meniu_butoane{
+    
+    width: 200px;
+    height: 200px;
+}
+
+
+
+ .butoane {
+    display: flex;
+    flex-direction: row;
+ 
+    margin-top: 50px;
+   
+}
+/*.butoane span{
+    color: white;
+    margin-left: 20px;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+.butoane1 {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+} */
+.butoane div{
+    background-color: white;
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butoane a {
+    text-decoration: none;
+    color:white;
+}
+
+
+
