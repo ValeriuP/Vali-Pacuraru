@@ -128,11 +128,17 @@ margin-top: 140px;
     flex-direction: row;
     margin-top: 50px;
 }
-.butoane span{
-    color: white;
-    margin-left: 20px;
+.butoane div{
     background-color: white;
     width: 25px;
-    height: 25px;
-    border-radius: 40%;
+    height:25px;
+    border-radius: 50%;
+    margin-left:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.butoane a {
+    text-decoration: none;
+    color:white;
 }

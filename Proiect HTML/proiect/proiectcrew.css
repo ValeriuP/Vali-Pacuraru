@@ -21,13 +21,13 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-top: 20px;
 }
 .main_content {
     width: 100vw;
-    height: 90vh;
+    /* height: 90vh; */
     display: flex;
-    margin-left: 150px;
-    padding-left: 20px;
+   
 }
 .linie {
     width: 500px;
@@ -43,6 +43,7 @@ body {
 .meniu li {
     float: left;
     margin-left: 30px;
+    margin-top: 10px;
 }
 .meniu ul {
     margin: top 20px;
@@ -63,18 +64,18 @@ body {
 }
 .left {
 width: 50%;
-height: 150px;
-margin-left: 150px;
-margin-top: 140px;
-
-
-
+height: 90vh;
+}
+.left img {
+    /* margin-top: 70px; */
 }
 
 .right {
     width: 50%;
+    height:90vh;
     color: aliceblue;
     margin-right: 0px;
+    padding: 0;
 
 }
 .right ul {
@@ -92,6 +93,7 @@ margin-top: 140px;
     font-weight: 400px;
     line-height: 34px;
     letter-spacing: 4px;
+    margin-left: 150px;
 }
 .randul2 {
     width: 400px;
@@ -101,6 +103,7 @@ margin-top: 140px;
     font-size: 25px;
     font-family: 'Barlow Condensed';
     line-height:  34px;
+    margin-left: 150px;
 }
 .randul3 {
     width: 400px;
@@ -108,17 +111,19 @@ margin-top: 140px;
     font-family: barlow;
     font-size: 40px;
     line-height: 30px;
+    margin-left: 150px;
 }
 .randul4 {
     width: 400px;
     margin-top: 25px;
     font-family: barlow;
-    
+    margin-left: 150px;
 }
 .meniu_butoane{
     
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    margin-left: 150px;
 }
 
 
@@ -126,23 +131,10 @@ margin-top: 140px;
  .butoane {
     display: flex;
     flex-direction: row;
- 
     margin-top: 50px;
    
 }
-/*.butoane span{
-    color: white;
-    margin-left: 20px;
-    background-color: white;
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-}
-.butoane1 {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-} */
+
 .butoane div{
     background-color: white;
     width: 25px;

@@ -22,15 +22,15 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
+    margin-top: 20px;
     
 }
 .main_content {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     /* background-color: chartreuse; */
     display: flex;
-    margin-left: 150px;
-    padding-left: 20px;
+    
     
 }
 .left {
@@ -39,7 +39,7 @@ body {
     /* background-color: chocolate; */
 }
 .right {
-    width: 30%;
+    width: 50%;
     height: 200px;
     /* background-color:green; */
 }
@@ -57,6 +57,7 @@ body {
 .meniu  li {
     float: left;
     margin-left: 30px;
+    margin-top: 15px;
 }
 .meniu ul {
    margin: top 20px;
@@ -99,22 +100,21 @@ font-weight: 400;
 font-size: 150px;
 line-height: 172px;
 color: #FFFFFF;
+margin-left: 150px;
 }
 
 .mare1 {
-    
+    margin-left: 150px;
     height: 34px;
     left: 0.11%;
     right: 15.67%;
     top: calc(50% - 34px/2 - 174px);
-    
     font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
     line-height: 34px;
     letter-spacing: 4.725px;
-    
     color: #D0D6F9;
 }
 
@@ -124,7 +124,7 @@ color: #FFFFFF;
     left: 0.11%;
     right: 1.22%;
     top: calc(50% - 128px/2 + 127px);
-    
+    margin-left: 150px;
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
@@ -160,15 +160,21 @@ color: #FFFFFF;
 
 
 @media screen and (max-width:850px) {
+    body {
+        background-image: url(background-home-tablet.jpg);
+    }
+    .navbar_container {
+        margin-top: 20px;
+    }
     .linie {
-        width: 150px;
+        width: 50px;
 
     }
     .linie hr {
-        width: 150px;
+        width: 0px;
     }
     .meniu {
-        margin-left: 100px;
+        margin-left: 80px;
         margin-top: 10px;
     }
     .main_content {
@@ -184,13 +190,67 @@ color: #FFFFFF;
     .right {
         margin-top: 0;
         width: 100%;
+        margin-top: 200px;
     }
     .right div {
     
         margin-left: 0;
         margin-inline: auto;
     }
+    .mare1 {
+        margin-top: 100px;
+        font-size: 20px;
+        margin-left: 35px;
+        white-space: nowrap;
+    }
+    .mare2 {
+        margin-top:20px ;
+        margin-left: 35px;
+    }
+    .mare {
+        margin-left: 35px;
+    }
+
 }
+@media screen and (max-width:500px) {
+    body {
+        background-image:url(background-home-mobile.jpg);
+    }
+    .navbar_container {
+        margin-top: 20px;
+    }
+    .main_content {
+        flex-direction: column;
+        margin-left: 0;
+        padding-left: 0;
+
+    }
+    .left {
+        margin-top: 0;
+        margin-inline: auto;
+    }
+    .right {
+        margin-top: 0;
+        width: 100%;
+        margin-top: 200px;
+    }
+    .right div {
+    
+        margin-left: 0;
+        margin-inline: auto;
+    }
+    .mare1 {
+        margin-top: 100px;
+        font-size: 10px;
+    }
+    .mare {
+        font-size: 100px;
+    }
+    .mare2 {
+        margin-top:15px ;
+    
+}
+ }
 
 
 

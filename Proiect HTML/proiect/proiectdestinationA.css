@@ -171,5 +171,261 @@ margin-left: 300px;
 
 
 .esttravel {
+    margin-left: 50px;
+}
+
+@media screen and (max-width:850px) {
+    body {
+        background-image: url( background-destination-tablet.jpg);
+    }
+    .navbar_container {
+        margin-top: 20px;
+    }
+    .linie {
+        width: 50px;
+
+    }
+    .linie hr {
+        width: 0px;
+    }
+    .meniu {
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .main_content {
+        flex-direction:column;
+        margin-left: 0;
+        padding: 0;
+    }
+    .randul1 {
+        margin: 0;
+        padding: 25px;
+        font-size: 18px;
+        font-family: Barlow Condensed;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.375px;
+    }
+    .main_content img {
+        margin-left: 150px;
+    }
+    .moom {
+        font-size: 80px;
+        text-align: center;
+    }
+    .randul5 {
+        width: 400px;
+        height: 50px;
+        color:white;
+        text-align: center;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 25px;
+    }
+    .avgdistans {
+        margin-top: 20px;
+        width: 200px;
+    }
+    .avg2 {
+        width: 200px;
+        height: 20px;
+    }
+    .avg {
+        margin-left: 30px;
+    }
+    .mil2 {
+        width: 200px;
+        height: 20px;
+    }
+    .esttravel {
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 90px;
+    }
+    .est2 {
+        width: 200px;
+        height: 20px;
+    }
+    .travel2 {
+        width: 200px;
+        height: 20px;
+    }
+    .travel {
+        margin-left: 30px;
+    }
+  .left {
+    margin-top: 0;
+    margin-left: 0;
+    /* display: flex; */
+  }
+  .meniu2 {
+    width: 350px;
+    height: 50px;
+   margin-left: 190px;
+  }
+  .textavg {
+    margin-left: 200px;
+  }
+}
+@media screen and (max-width:400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-image: url(background-destination-mobile.jpg);
+    }
+    .main {
+        width: 100vw;
+        height: 100vh;
+    }
+    .linie {
+        width: 0px;
+    }
+    .linie hr {
+        width: 0;
+    }
+    .meniu {
+        width: 20px;
+        display: flex;
+        flex-direction:column;
+        margin-left: 150px;
+    }
+   
+    .butoane_linie {
+        margin-top: 0;
+    }
+    .meniu_nav_1 {
+        visibility: hidden;
+    }
+    .butoane_nav {
+        width: 30px;
+        height: 3px;
+        background-color:white;
+        margin-top: 10px;
+        margin-left: 10px;
+       
+     }
+     
+    .logo {
+        margin-top: 10px;
+        margin-left: 30px;
+    } 
+    .navbar_container {
+        margin-top: 20px;
+    }
+    .main_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .right {
+        margin: 0;
+        width: 390px;
+
+    }
+    .randul1 {
+        margin-left: 30px;
+        color: #FFF;
+        font-family: Barlow Condensed;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.7px;
+        margin-top: 40px;
+}
+.right img {
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.meniu2 {
+    width:390px ;
+    margin-top: 10px;
+    align-items: center;
     margin-left: 20px;
+}
+.batens li {
+    color: #D0D6F9;
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+}
+.moom {
+    color: #FFF;
+    text-align: center;
+    font-family: Bellefair;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.textavg {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-direction:column;
+}
+
+.distans {
+    width: 350px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.randul5 {
+    color: #D0D6F9;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.avg2 {
+    width: 350px;
+    color:white;
+    text-align: center;
+    font-family: Barlow Condensed;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase; 
+}
+.mil2 {
+    margin-left: 90px;
+}
+.esttravel {
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 80px;
+    
+}
+.est2 {
+    width: 200px;
+    color:white;
+    text-align: center;
+    font-family: Barlow Condensed;
+    font-size: 3px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase; 
+}
+.travel2  {
+    text-align: center;
+}
 }

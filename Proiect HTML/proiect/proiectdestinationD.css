@@ -16,7 +16,6 @@ body {
     flex-direction: column;
 }
 .navbar_container {
-    /* background-color: aqua; */
     width: 100vw;
     height: 50px;
     display: flex;
@@ -27,8 +26,6 @@ body {
     width: 100vw;
     height: 90vh;
     display: flex;
-    margin-left: 150px;
-    padding-left: 20px;
 
 }
 
@@ -60,19 +57,38 @@ body {
     height: 50px;
     margin-left: 450px;
 }
+.meniu2 {
+    background: rgb(255, 255, 255, 0.04);
+    backdrop-filter: blur(60.774227142333984px);
+    height: 50px;
+}
+.meniu2 li {
+    float: left;
+    margin-left: 30px;
+}
+.meniu2 ul {
+    margin-top: 20px;
+    list-style: none;
+}
+.meniu2 a {
+    color: aliceblue;
+}
+.meniu2 .batens div:hover {
+     height: 25px;
+    border-bottom: 1px solid aliceblue;
+}
 .meniu div:hover {
     height: 25px;
     border-bottom: 1px solid aliceblue;
 }
 .left {
     width: 50%;
-margin-right: 250px;
+margin-left: 300px;
     margin-top: 350px;
 }
 .right {
     width: 50%;
     margin-top: 150;
-    /* background-color: burlywood; */
 
 }
 .randul1 {
@@ -89,41 +105,230 @@ margin-right: 250px;
 .titan {
     margin-top: 50px;
     color: white;
-    font-size: 90px;
-    margin-right: 50px;
+    font-family: Bellefair;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .randul5 {
     color: white;
     margin-top: 20px;
-    width: 350px;
-    height:100px;
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
 }
-.textjos {
-    width: 450px;
-    height: 100px;
+.avg {
+    color: aliceblue;
+    margin-top: 20px;
+}
+.textavg {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.mil {
+    margin-top: 10px;
+    color: white;
+    font-family: Bellefair;
+     font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.est {
+    margin-top:20px ;
+    color: white;
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase;
+}
+.travel {
+    margin-top: 10px;
+    color: white;
+    font-family: Bellefair;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+   
+}
+.distans {
     display: flex;
     flex-direction: row;
 }
-.avg {
-    color: white;
-    margin-top: 10px;
 
+
+.esttravel {
+    margin-left: 50px;
+}
+@media screen and (max-width:400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-image: url(background-destination-mobile.jpg);
+    }
+    .main {
+        width: 100vw;
+        height: 100vh;
+    }
+    .linie {
+        width: 0px;
+    }
+    .linie hr {
+        width: 0;
+    }
+    .meniu {
+        width: 20px;
+        display: flex;
+        flex-direction:column;
+        margin-left: 150px;
+    }
+   
+    .butoane_linie {
+        margin-top: 0;
+    }
+    .meniu_nav_1 {
+     display: none;
+    }
+    .butoane_nav {
+        width: 30px;
+        height: 3px;
+        background-color:white;
+        margin-top: 10px;
+        margin-left: 10px;
+       
+     }
+     
+    .logo {
+        margin-top: 10px;
+        margin-left: 20px;
+    } 
+    .navbar_container {
+        margin-top: 20px;
+    }
+    .main_content {
+        display: flex;
+        flex-direction: column;
+    }
+    .right {
+        margin: 0;
+        width: 390px;
+
+    }
+    .randul1 {
+        margin-left: 70px;
+        color: #FFF;
+        font-family: Barlow Condensed;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2.7px;
+        margin-top: 40px;
+}
+.right img {
+    width: 220px;
+    height: 220px;
+    margin-top: 100px;
+    margin-left: 1px;
+    margin-top: 10px;
+}
+.left {
+    width:390px ;
+    margin-top: 10px;
+    align-items: center;
+    margin-left: 20px;
+}
+.batens li {
+    color: #D0D6F9;
+    font-family: Barlow Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+}
+.titan {
+    color: #FFF;
+    text-align: center;
+    font-family: Bellefair;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* margin-left: 20px; */
+    margin-top: 5px;
+}
+.textavg {
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-direction:column;
+}
+
+.distans {
+    width: 350px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.randul5 {
+    color: #D0D6F9;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.avg2 {
+    width: 350px;
+    color:white;
+    text-align: center;
+    font-family: Barlow Condensed;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase; 
+}
+.mil2 {
+    margin-left: 90px;
+}
+.esttravel {
+    margin-top: 10px;
+    width: 200px;
+    margin-left: 80px;
     
 }
-.est {
-    color: white;
-    margin-top: 10px;
-    
+.est2 {
+    width: 200px;
+    color:white;
+    text-align: center;
+    font-family: Barlow Condensed;
+    font-size: 3px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.362px;
+    text-transform: uppercase; 
 }
-.mil {
-    color: white;
-    margin-top: 10px;
-    font-size: 30px;
+.travel2  {
+    text-align: center;
 }
-.years {
-    color: white;
-    margin-top: 10px;
-    font-size: 30px;
-
-
 }
