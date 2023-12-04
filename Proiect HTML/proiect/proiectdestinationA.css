@@ -321,9 +321,16 @@ margin-left: 300px;
         flex-direction: column;
     }
     .right {
+        width: 50%;
         margin: 0;
         width: 390px;
 
+    }
+    .left {
+        width: 390px;
+        height: 610px;
+        display: flex;
+        flex-direction: column;
     }
     .randul1 {
         margin-left: 30px;
@@ -358,7 +365,7 @@ margin-left: 300px;
     line-height: normal;
     letter-spacing: 2.362px;
 }
-.moom {
+.moon {
     color: #FFF;
     text-align: center;
     font-family: Bellefair;
@@ -366,7 +373,7 @@ margin-left: 300px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-top: 10px;
 }
 .textavg {
@@ -374,6 +381,9 @@ margin-left: 300px;
     height: 50px;
     display: flex;
     flex-direction:column;
+    margin-left: 30px;
+    margin-top: 10px;
+    
 }
 
 .distans {
@@ -388,8 +398,9 @@ margin-left: 300px;
     font-family: Barlow;
     font-size: 15px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 350px;
     line-height: 25px;
+    margin-left: 10px;
 }
 
 .avg2 {
@@ -429,3 +440,4 @@ margin-left: 300px;
     text-align: center;
 }
 }
+@import url( );
