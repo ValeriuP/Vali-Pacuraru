@@ -173,99 +173,116 @@ margin-left: 300px;
 .esttravel {
     margin-left: 50px;
 }
-@media screen and (max-width:850px) {
-    body {
-        background-image: url( background-destination-tablet.jpg);
-    }
-    .navbar_container {
-        margin-top: 20px;
-    }
-    .linie {
-        width: 50px;
 
-    }
-    .linie hr {
-        width: 0px;
-    }
-    .meniu {
-        margin-left: 80px;
-        margin-top: 10px;
-    }
-    .main_content {
-        flex-direction:column;
-        margin-left: 0;
-        padding: 0;
-    }
-    .randul1 {
-        margin: 0;
-        padding: 25px;
-        font-size: 18px;
-        font-family: Barlow Condensed;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 3.375px;
-    }
-    .main_content img {
-        margin-left: 150px;
-    }
-    .mars {
-        font-size: 80px;
-        text-align: center;
-        margin-left: 120px;
-    }
-    .randul5 {
-        width: 400px;
-        height: 50px;
-        color:white;
-        text-align: center;
-        font-family: Barlow;
-        font-size: 16px;
-        font-style: normal;
-        line-height: 25px;
-    }
-    .avgdistans {
-        margin-top: 20px;
-        width: 200px;
-    }
-    .avg2 {
-        width: 200px;
-        height: 20px;
-    }
-    .avg {
-        margin-left: 30px;
-    }
-    .mil2 {
-        width: 200px;
-        height: 20px;
-    }
-    .esttravel {
-        width: 200px;
-        margin-top: 20px;
-        margin-left: 90px;
-    }
-    .est2 {
-        width: 200px;
-        height: 20px;
-    }
-    .travel2 {
-        width: 200px;
-        height: 20px;
-    }
-    .travel {
-        margin-left: 30px;
-    }
-  .left {
+@media screen and (max-width:850px) {
+    
+
+  body {
+    background-image: url( background-destination-tablet.jpg);
+}
+.navbar_container {
+    margin-top: 20px;
+}
+.linie {
+    width: 50px;
+
+}
+.linie hr {
+    width: 0px;
+}
+.meniu {
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.right {
+    width: 100vw;
+    height: 100vh;
+}
+.left {
+    width: 100vw;
+    height: 100vh;
     margin-top: 0;
     margin-left: 0;
-    /* display: flex; */
   }
-  .meniu2 {
-    width: 350px;
-    height: 50px;
-   margin-left: 190px;
-  }
-  .textavg {
-    margin-left: 200px;
-  }
+.main_content {
+    flex-direction:column;
+    margin-left: 0;
+    padding: 0;
+}
+.randul1 {
+    margin: 0;
+    padding: 35px;
+    font-size: 18px;
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 3.375px;
+}
+.main_content img {
+    margin-left: 170px;
+    margin-top: 30px;
+}
+.mars {
+    font-size: 80px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 30px;
+}
+.randul5 {
+    width: 500px;
+    color:white;
+    text-align: center;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 25px;
+    margin-left: 0px;
+}
+.avgdistans {
+    margin-top: 60px;
+    width: 200px;
+}
+.avg2 {
+    width: 200px;
+    height: 20px;
+}
+.avg {
+    margin-left: 30px;
+}
+.mil2 {
+    width: 200px;
+    height: 20px;
+}
+.esttravel {
+    width: 200px;
+    margin-top: 60px;
+    margin-left: 90px;
+}
+.est2 {
+    width: 200px;
+    height: 20px;
+}
+.travel2 {
+    width: 200px;
+    height: 20px;
+}
+.travel {
+    margin-left: 30px;
+}
+
+
+.meniu2 {
+  width: 350px;
+  height: 50px;
+  margin-left: 220px;
+  margin-top: 50px;
+
+}
+.textavg {
+  margin-left: 170px;
+}
+.logo {
+margin-left: 30px;
+}
 }

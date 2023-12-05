@@ -142,3 +142,101 @@ margin-top: 140px;
     text-decoration: none;
     color:white;
 }
+
+@media screen and  (max-width: 850px) {
+    body {
+        background-image:url(background-crew-tablet.jpg) ;
+    }
+    .navbar_container {
+        margin-top: 20px;
+    }
+    .logo {
+        margin-left: 30px;
+    }
+    .linie {
+        width: 50px;
+
+    }
+    .linie hr {
+        width: 0px;
+    }
+    .meniu {
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .right {
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+    .left {
+        width: 100vw;
+        height: 50px;
+        margin-top: 0;
+        margin-left: 0;
+      }
+    .main_content {
+        width: 100vw;
+        height: 100px;
+        flex-direction:column;
+        margin-left: 0;
+        padding: 0;
+    }
+    .randul1 {
+        margin-top: 20px;
+        margin-left: 30px;
+        color: #FFF;
+        font-family: Barlow Condensed;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.375px;
+        text-transform: uppercase;
+    }
+    .randul2 {
+        text-align: center;
+        font-family: Bellefair;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 50px;
+        margin-left: 190px;
+    }
+    .randul3 {
+        text-align: center;
+        font-family: Bellefair;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-left: 200px;
+    }
+    .randul4 {
+        text-align: center;
+        font-family: Barlow;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        margin-left: 150px;
+        width: 500px;
+    }
+    .meniu_butoane {
+        width: 250px;
+        height: 20px;
+        margin-left: 350px;
+    }
+    .left img {
+        margin-top: 62px;
+        margin-left: 150px;
+    }
+    .butoane div {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+     }
+    
+}

@@ -174,62 +174,71 @@ margin-left: 300px;
     margin-left: 20px;
 }
 @media screen and (max-width:850px) {
+   
     body {
-        background-image: url(background-destination-tablet.jpg);
+        background-image: url( background-destination-tablet.jpg);
     }
     .navbar_container {
         margin-top: 20px;
     }
     .linie {
-        width:50px;
+        width: 50px;
+
     }
     .linie hr {
-        width: 0;
+        width: 0px;
     }
     .meniu {
         margin-left: 80px;
         margin-top: 10px;
     }
-    .main_content {
-        flex-direction: column;
-        margin-left: 0;
-        padding-left: 0;
+    .right {
+        width: 100vw;
+        height: 100vh;
     }
     .left {
+        width: 100vw;
+        height: 100vh;
         margin-top: 0;
-        margin-inline: auto;
+        margin-left: 0;
+      }
+    .main_content {
+        flex-direction:column;
+        margin-left: 0;
+        padding: 0;
     }
     .randul1 {
         margin: 0;
-        padding: 25px;
+        padding: 35px;
         font-size: 18px;
         font-family: Barlow Condensed;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         letter-spacing: 3.375px;
-        
     }
     .main_content img {
-        margin-left: 150px;
+        margin-left: 170px;
+        margin-top: 30px;
     }
     .europa {
         font-size: 80px;
+        margin-top: 30px;
         text-align: center;
-        margin-left:50px ;
+        margin-left: 30px;
     }
     .randul5 {
-        width: 400px;
-        height: 50px;
+        width: 500px;
         color:white;
         text-align: center;
         font-family: Barlow;
         font-size: 16px;
         font-style: normal;
         line-height: 25px;
+        margin-left: 0px;
     }
     .avgdistans {
-        margin-top: 20px;
+        margin-top: 60px;
         width: 200px;
     }
     .avg2 {
@@ -245,7 +254,7 @@ margin-left: 300px;
     }
     .esttravel {
         width: 200px;
-        margin-top: 20px;
+        margin-top: 60px;
         margin-left: 90px;
     }
     .est2 {
@@ -260,4 +269,18 @@ margin-left: 300px;
         margin-left: 30px;
     }
 
+
+    .meniu2 {
+      width: 350px;
+      height: 50px;
+      margin-left: 220px;
+      margin-top: 50px;
+
+    }
+    .textavg {
+      margin-left: 170px;
+   }
+   .logo {
+    margin-left: 30px;
+   }
 }
