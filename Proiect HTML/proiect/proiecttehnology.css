@@ -189,6 +189,7 @@ body {
         width: 100vw;
         height: 100px;
         flex-direction:column;
+        display: flex;
         margin-left: 0;
         padding: 0;
     }
@@ -202,7 +203,13 @@ body {
 
     .img_tableta {
         display: inline;
+        order: 2;
+    
     }
+    .right {
+        margin-top: 40px;
+    }
+    
     .tehnology_space_tableta {
         display: inline;
         /* width: 200px; */
@@ -216,6 +223,7 @@ body {
         font-weight: 400;
         line-height: normal;
         letter-spacing: 3.375px;
+    
     }
     /* .right {
         width: 350px;
@@ -228,22 +236,31 @@ body {
     }
     .tehnology_butoane_capsule {
         flex-direction: column;
+        order: 2;
     }
     .tehnology_butoane {
         flex-direction: row;
     }
     .left {
         width: 100vw;
-        margin-left: 100px;
+        margin-left: 0;
+        order: 2;
     }
+    .right img {
+    margin-left: 0;
+    margin-top: 0;
+    }
+
     .right {
         width: 350px;
         height: 200px;
+        
     }
     .img_tableta {
         width: 100vw;
-        margin-left: 50px;
+        margin-left: 30px;
         margin-top: 10px;
+    
     }
 
 }
