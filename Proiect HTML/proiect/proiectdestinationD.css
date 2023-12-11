@@ -211,7 +211,7 @@ margin-left: 300px;
         padding: 0;
     }
     .randul1 {
-        margin: 0;
+        margin-top: 10px;
         padding: 35px;
         font-size: 18px;
         font-family: Barlow Condensed;
@@ -219,6 +219,7 @@ margin-left: 300px;
         font-weight: 400;
         line-height: normal;
         letter-spacing: 3.375px;
+        margin-left: 0;
     }
     .main_content img {
         margin-left: 170px;
@@ -317,7 +318,8 @@ margin-left: 300px;
         margin-top: 0;
     }
     .meniu_nav_1 {
-        visibility: hidden;
+      
+        display: none;
     }
     .butoane_nav {
         width: 30px;
@@ -401,8 +403,10 @@ margin-left: 300px;
     display: flex;
     flex-direction:column;
     margin-left: 10px;
-    margin-top: 10px;
     
+}
+.titan {
+    margin-top: 10px;
 }
 
 .distans {

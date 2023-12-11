@@ -231,13 +231,44 @@ margin-left: 150px;
 
 
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width:400px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
     body {
         background-image:url(background-home-mobile.jpg);
     }
-    .navbar_container {
-        margin-top: 20px;
+    .main {
+        width: 100vw;
+        height: 100vh;
     }
+    .linie {
+        width: 0px;
+    }
+    .linie hr {
+        width: 0;
+    }
+    .meniu {
+        width: 20px;
+        display: flex;
+        flex-direction:column;
+        margin-left: 150px;
+    }
+    .butoane_linie {
+        margin-top: 0;
+    }
+    .meniu_nav_1 {
+        display: none;
+    }
+    .butoane_nav {
+        width: 30px;
+        height: 3px;
+        background-color:white;
+        margin-top: 8px;
+        margin-left: 10px;
+       
+     }
     .main_content {
         flex-direction: column;
         margin-left: 0;
@@ -248,27 +279,42 @@ margin-left: 150px;
         margin-top: 0;
         margin-inline: auto;
     }
-    .right {
-        margin-top: 0;
-        width: 100%;
-        margin-top: 200px;
-    }
-    .right div {
     
-        margin-left: 0;
-        margin-inline: auto;
-    }
     .mare1 {
-        margin-top: 100px;
-        font-size: 10px;
+        margin-top: 50px;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 10px;
     }
     .mare {
-        font-size: 100px;
+        font-size: 80px;
+        margin-left: 10px;
+
     }
     .mare2 {
         margin-top:15px ;
+        margin-left: 10px;
+        text-align: center;
+        font-size: 15px;
+        width: 360px;
     
 }
+
+.right {
+        margin-top: 0;
+        width: 100%;
+        margin-top: 50px;
+    }
+    .right div {
+        width: 150px;
+        height: 150px;
+        margin-left: 0;
+        margin-inline: auto;
+        margin-top: 50px;
+    }
+    .right a {
+        font-size: 20px;
+    }
  }
 
 

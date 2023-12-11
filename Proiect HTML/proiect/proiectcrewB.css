@@ -141,6 +141,13 @@ margin-top: 140px;
     text-decoration: none;
     color:white;
 }
+.butoane div  :hover {
+    width: 25px;
+    height:25px;
+    border-radius: 50%;
+    background-color:grey;
+    color: gray;
+}
 
 @media screen and  (max-width: 850px) {
     body {
@@ -237,5 +244,116 @@ margin-top: 140px;
         height: 10px;
         border-radius: 50%;
      }
+    
+}
+
+@media screen and (max-width:400px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-image: url(background-crew-mobile.jpg);
+    }
+    .main {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .main_content {
+        display: flex;
+    }
+    .linie {
+        width: 0;
+    }
+    .linie hr {
+        width: 0;
+    }
+    .meniu {
+        width: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 150px;
+    }
+    .butoane_linie {
+        margin-top: 0;
+    }
+    .meniu_nav_1 {
+        display: none;
+    }
+    .butoane_nav {
+        width: 30px;
+        height: 3px;
+        margin-top: 10px;
+        background-color: #FFF;
+        margin-left: 10px;
+    }
+    .right {
+       
+        width: 390px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        order: 2;
+    }
+    .left {
+     
+        width: 390px;
+        height: 350px;
+    }
+    .left img {
+        width: 300px;
+        height: 350px;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    .randul1 {
+       display: none;
+    }
+    .randul1_mobil {
+        color: #FFF;
+        font-size: 16px;
+        text-align: center; 
+        margin-top: 20px;
+    }
+    .randul2{
+        margin-top: 0px;
+        font-weight: 360px;
+        margin-left: 0;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 360px;
+    }
+    .randul3 {
+        margin-left: 0;
+        font-size: 24px;
+        width: 360px;
+        font-weight: 360px;
+    }
+    .randul4 {
+        width: 380px;
+        font-size: 14px;
+        font-weight: 200;
+        margin-left: 0;
+    }
+    .meniu_butoane {
+        margin-left: 150px;
+        margin-top: 330px;
+    }
+    .butoane {
+        margin-top: 0;
+    }
+    .text {
+        width: 350px;
+        height: 350px;
+    }
+    .crew1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .text {
+        flex-direction: column-reverse;
+    }
     
 }

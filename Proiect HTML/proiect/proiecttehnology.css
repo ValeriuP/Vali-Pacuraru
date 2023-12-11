@@ -212,7 +212,6 @@ body {
     
     .tehnology_space_tableta {
         display: inline;
-        /* width: 200px; */
         padding: 0;
         margin-top: 20px;
         margin-left: 50px;
@@ -225,11 +224,7 @@ body {
         letter-spacing: 3.375px;
     
     }
-    /* .right {
-        width: 350px;
-        height: 350px;
-        background-color: blue;
-    } */
+
     .Tehnology3 {
         display: flex;
 
@@ -243,7 +238,7 @@ body {
     }
     .left {
         width: 100vw;
-        margin-left: 0;
+        margin-left: 120px;
         order: 2;
     }
     .right img {
