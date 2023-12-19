@@ -259,3 +259,97 @@ body {
     }
 
 }
+@media screen and (max-width:400px) {
+    * {
+        margin:0;
+        pading:0;
+    }
+    body {
+        background-image: url(background-technology-mobile.jpg);
+    }
+    .main {
+        width: 100vw;
+        height: 100vh;
+    }
+    .linie {
+        width: 0px;
+    }
+    .linie hr {
+        width: 0;
+    }
+    .meniu {
+        width: 20px;
+        display: flex;
+        flex-direction:column;
+        margin-left: 150px;
+    }
+   
+    .butoane_linie {
+        margin-top: 0;
+    }
+    .meniu_nav_1 {
+      
+        display: none;
+    }
+    .butoane_nav {
+        width: 30px;
+        height: 3px;
+        background-color:white;
+        margin-top: 10px;
+        margin-left: 10px;
+       
+     }
+     
+    .logo {
+        margin-top: 10px;
+        margin-left: 30px;
+    } 
+    .navbar_container {
+        margin-top: 20px;
+    }
+    .right {
+        width: 390px;
+    }
+    .right img {
+        margin:0;
+        width: 390px;
+    }
+    .img_tableta {
+        margin-left: 0;
+    }
+    .tehnology_butoane_capsule{
+        margin-left: 0;
+        width: 390px;
+    }
+    .left {
+        margin-left: 0;
+    }
+    .tehnology_butoane div {
+        margin-left: 0;
+        justify-content: center;
+        margin-left: 55px;
+        
+    }
+    .tehnology_butoane {
+        margin-top: 10px;
+    }
+    .tehnology_capsule {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .tehnology_the {
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    .tehnology_the2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .tehnology_the3 {
+        font-size: 15px;
+        text-align: center;
+        width: 390px;
+        line-height: 25px;
+    }
+}

@@ -126,8 +126,6 @@ margin-top: 140px;
 .butoane {
     display: flex;
     flex-direction: row;
-   
-    flex-direction: row;
     margin-top: 50px;
 }
 .butoane div{
@@ -221,7 +219,7 @@ margin-top: 140px;
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
-        margin-left: 180px;
+        margin-left: 200px;
     }
     .randul4 {
         text-align: center;
@@ -239,21 +237,13 @@ margin-top: 140px;
         margin-left: 350px;
     }
     .left img {
-        margin-top: 40px;
+        margin-top: 62px;
         margin-left: 150px;
     }
     .butoane div {
         width: 10px;
         height: 10px;
         border-radius: 50%;
-        background-color:grey;
-        
-     }
-     .butoane a {
-        color: grey;
-     }
-     .butoane div :hover {
-        background-color: #FFF;
      }
     
 }
@@ -343,14 +333,14 @@ margin-top: 140px;
         font-weight: 360px;
     }
     .randul4 {
-        width: 380px;
+        width: 360px;
         font-size: 14px;
         font-weight: 200;
         margin-left: 0;
     }
     .meniu_butoane {
         margin-left: 150px;
-        margin-top: 0px;
+        margin-top: 330px;
     }
     .butoane {
         margin-top: 0;

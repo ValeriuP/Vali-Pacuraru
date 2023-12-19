@@ -152,3 +152,197 @@ body {
     margin-top: 200px;
     margin-left: 440px;
 }
+
+@media screen and (max-width:850px) {
+    * {
+        padding: 0;
+        margin: 0;
+    }
+    body {
+        background-image: url(background-technology-tablet.jpg);
+    }
+    .navbar_container {
+        margin-top: 20px;
+    }
+    .logo {
+        margin-left: 30px;
+    }
+    .linie {
+        width: 50px;
+
+    }
+    .linie hr {
+        width: 0px;
+    }
+    .meniu {
+        margin-left: 80px;
+        margin-top: 10px;
+    }
+    .main_content {
+        width: 100vw;
+        height: 100px;
+        flex-direction:column;
+        display: flex;
+        margin-left: 0;
+        padding: 0;
+    }
+   
+    .imgdestop {
+        display: none;
+    }
+    .tehnology_space {
+        display: none;
+    }
+
+    .img_tableta {
+        display: inline;
+        order: 2;
+    
+    }
+    .right {
+        margin-top: 40px;
+    }
+    
+    .tehnology_space_tableta {
+        display: inline;
+        padding: 0;
+        margin-top: 20px;
+        margin-left: 50px;
+        color:#FFF;
+        font-family: Barlow Condensed;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 3.375px;
+    
+    }
+
+    .Tehnology3 {
+        display: flex;
+
+    }
+    .tehnology_butoane_capsule {
+        flex-direction: column;
+        order: 2;
+    }
+    .tehnology_butoane {
+        flex-direction: row;
+    }
+    .left {
+        width: 100vw;
+        margin-left: 120px;
+        order: 2;
+    }
+    .right img {
+    margin-left: 0;
+    margin-top: 0;
+    }
+
+    .right {
+        width: 350px;
+        height: 200px;
+        
+    }
+    .img_tableta {
+        width: 100vw;
+        margin-left: 30px;
+        margin-top: 10px;
+    
+    }
+
+}
+@media screen and (max-width:400px) {
+    * {
+        margin:0;
+        pading:0;
+    }
+    body {
+        background-image: url(background-technology-mobile.jpg);
+    }
+    .main {
+        width: 100vw;
+        height: 100vh;
+    }
+    .linie {
+        width: 0px;
+    }
+    .linie hr {
+        width: 0;
+    }
+    .meniu {
+        width: 20px;
+        display: flex;
+        flex-direction:column;
+        margin-left: 150px;
+    }
+   
+    .butoane_linie {
+        margin-top: 0;
+    }
+    .meniu_nav_1 {
+      
+        display: none;
+    }
+    .butoane_nav {
+        width: 30px;
+        height: 3px;
+        background-color:white;
+        margin-top: 10px;
+        margin-left: 10px;
+       
+     }
+     
+    .logo {
+        margin-top: 10px;
+        margin-left: 30px;
+    } 
+    .navbar_container {
+        margin-top: 20px;
+    }
+    .right {
+        width: 390px;
+    }
+    .right img {
+        margin:0;
+        width: 390px;
+    }
+    .img_tableta {
+        margin-left: 0;
+    }
+    .tehnology_butoane_capsule{
+        margin-left: 0;
+        width: 390px;
+    }
+    .left {
+        margin-left: 0;
+    }
+    .tehnology_butoane div {
+        margin-left: 0;
+        justify-content: center;
+        margin-left: 55px;
+        
+    }
+    .tehnology_butoane {
+        margin-top: 10px;
+    }
+    .tehnology_capsule {
+        margin-left: 0;
+        margin-top: 50px;
+    }
+    .tehnology_the {
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    .tehnology_the2 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .tehnology_the3 {
+        font-size: 15px;
+        text-align: center;
+        width: 390px;
+        line-height: 25px;
+    }
+}
