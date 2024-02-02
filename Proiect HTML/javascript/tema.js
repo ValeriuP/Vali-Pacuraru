@@ -41,3 +41,11 @@ function clic()
         document.getElementById("Btn").style.background="blue"
     }
 }
+
+let numbers1=parseFloat(prompt("Enter the first number:"));
+let numbers2=parseFloat(prompt("Enter the second number:"));
+let numbers3=parseFloat(prompt("Enter the third number:"));
+
+if (numbers1==numbers2==numbers3){
+    p.innerText="numbers1"
+}

@@ -1,10 +1,10 @@
 
-// var x=10;
+var x=10;
 
-// console.log("2");
-// console.log("6");
-// let text = "test"
-// console.log(text[0]);
+console.log("2");
+console.log("6");
+let text = "test"
+console.log(text[0]);
 
 // let color =["red", "green","blue"];
 // let numbers = [1,2,3,4,5,6,7,8,9,10];
@@ -118,17 +118,17 @@
 // {
 //     let userInput=document.getElementById("name_input").value;
 //     console.log(userInput);
+// // }
+// MakeRed("green");
+// let suma=sun(5,4);
+// console.log(suma);
+
+// function sun(a,b)
+// {
+//     return a+b;
 // }
-MakeRed("green");
-let suma=sun(5,4);
-console.log(suma);
+// function MakeRed(color)
+// {
+//     document.getElementById("btn_submit").style.color=color;
 
-function sun(a,b)
-{
-    return a+b;
-}
-function MakeRed(color)
-{
-    document.getElementById("btn_submit").style.color=color;
-
-}
+// }

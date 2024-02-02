@@ -76,13 +76,14 @@
 // console.log(varsta)
 
 
-// function printName()
-// {
-//     let userInput= document.getElementById("name_input").value;
-//     console.log(userInput);
+function printName()
+{
+    let userInput= document.getElementById("name_input").value;
+    console.log(userInput);
 
 
-// }
+}
+
 //  let suma=sum(5,4)
 //  console.log(suma)
 
@@ -189,24 +190,24 @@ if(input_name!="Tiberiu"){
 //     alert("Else");
 // }
 
-function clic()
-{
-    let momentan= document.getElementById("momentan")
-    let div1=document.getElementById("div1")
-    let div2=document.getElementById("div2")
-    if (div1.style.backgroundColor=="aqua")
-    {
-        console.log(div1.style.backgroundColor);
-        div1.innerText=div1.style.backgroundColor
-    }
-    if(div1.style.backgroundColor=="aqua" && momentan.style.backgroundColor=="brown" || div2.style.backgroundColor=="red"){
+// function clic()
+// {
+//     let momentan= document.getElementById("momentan")
+//     let div1=document.getElementById("div1")
+//     let div2=document.getElementById("div2")
+//     if (div1.style.backgroundColor=="aqua")
+//     {
+//         console.log(div1.style.backgroundColor);
+//         div1.innerText=div1.style.backgroundColor
+//     }
+//     if(div1.style.backgroundColor=="aqua" && momentan.style.backgroundColor=="brown" || div2.style.backgroundColor=="red"){
 
-div1.innerText=div1.style.backgroundColor
-    momentan.innerText=momentan.style.backgroundColor
-    div2.innerText=div2.style.backgroundColor
+// div1.innerText=div1.style.backgroundColor
+//     momentan.innerText=momentan.style.backgroundColor
+//     div2.innerText=div2.style.backgroundColor
 
-    }
+//     }
     
-}
+// }
 
 
