@@ -65,6 +65,10 @@ function Hide(){
 
 // }
 function Hi(){
+   let but1=document.getElementById("buttonLogin1");
+   but1.style.color="yellow";
+   but1.style.background="blue";
+   but1.style.fontSize="25px";
 let ul =document.querySelector("ul");
 let li =document.createElement("li");
 li.innerText="Hello"
@@ -73,6 +77,10 @@ ul.appendChild(li);
 
 
         function Remove(){
+            let but2 =document.getElementById("RemoveLogin");
+            but2.style.color="red";
+            but2.style.background="grey"
+            but2.style.fontSize="25px";
             let ul = document.querySelector('ul');
             let li = ul.querySelectorAll('li');
             if(li.length != 0){
@@ -113,11 +121,22 @@ function addTable(){
     document.body.appendChild(table);
 }
 }
+function Stergetabel(){
+    let but =document.getElementById("butlog");
+    but.style.backgroundColor="red";
+    let butstergetabel =document.querySelector("Elimina");
+    let table2 = document.querySelector("#table2")
+    if(!table){
+        remove.table;
+    
+    }
+
+}
 
 function Listeaza(){
 let arata=document.querySelector("reda");
- let buton=document.getElementById("buton2");
-  buton.style.color="red";
+ let buton1=document.getElementById("butonAdauga");
+  buton1.style.background="green";
 
 if(!arata) {
     let people=[{
@@ -152,11 +171,14 @@ document.body.appendChild(reda);
 }
 }
 function Delisteaza(){
+    let buton =document.getElementById("butonSterge");
+    buton.style.background="red";
     let tr=document.createElement("tr");
     let td=document.createElement("td");
+
     let reda= document.querySelector("reda");
     if(reda.length !=0){
-        reda.remove(td[td.length-1]);
+        reda.remove(td);
          buton.style.color="black"
          
     }

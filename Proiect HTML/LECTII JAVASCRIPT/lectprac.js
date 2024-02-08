@@ -8,9 +8,9 @@ function hai()
     let li0 =document.createElement(`li`);
     let li1 =document.createElement(`li`);
     let li2 =document.createElement(`li`);
-    li0.innerText="Text"
-    li1.innerText="Text"
-    li2.innerText="Text"
+    li0.innerText="Andrea "
+    li1.innerText="Ines"
+    li2.innerText="Vali"
 
   ul.appendChild(li0);
   ul.appendChild(li1);
