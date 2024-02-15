@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header class="header_selection">
@@ -19,9 +20,9 @@
 
                  </div>
             <div class="header_controls_container">
-                <input type="text" class="input_style">
-                <button class="button_style">Add List</button>
-                <button class="remov_style">Remov List</button>
+                <input type="text" id="list-name" class="input_style">
+                <button onclick="addList()" class="button_style" id="add-list" >Add List</button>
+                <button onclick="removeDiv()" class="remov_style" id="remove-list">Remov List</button>
             </div>
         </div>
 
@@ -29,10 +30,21 @@
 
 
     </header>
-    <main class="main__section">main
+    <main class="main__section" id="main-section">
+        
+        
 
     </main>
-    <footer class="footer_selection">footer
+    <footer class="footer__section">
+        <div class="footer__section__left">
+            <p class="footer__section__left__p">Denumire Firma</p>
+        </div>
+        <div class="footer__section__center">
+            <p class="footer__section__center__p"> Date de contact</p>
+        </div>
+        <div class="footer__section__right">
+            <p class="footer__section__right__p"> Alte aspecte</p>
+        </div>
 
     </footer>
 
