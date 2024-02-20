@@ -86,6 +86,7 @@ body {
     display: flex;
     flex-direction: row;
     color: white;
+    flex-wrap: wrap;
 }
 .main__section__left{
     width: 500px; 
@@ -130,5 +131,29 @@ body {
    
 
 }
+/* style javascript */
+.list_container{
+    width: 275px;
+    height: 350px;
+    border: 3px solid blue;
+    color: blue;
+    overflow: auto;
+}
+.box_input{
+    border:2px solid blue;
+}
+.box_botton{
+    border: 2px solid blue;
+    color: blue;
+}
+.box_remov_button{
+    border:2px solid red;
+    color: red;
+}
+/* .text_Little{
+    display: flex;
+    flex-wrap: wrap;
+
+} */
 
 
